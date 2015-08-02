@@ -1,0 +1,79 @@
+body{
+    font-family: verdana;
+    color: #000066;}
+body{
+    background: url("../../images/logo4.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: 200px;
+    -o-background-size: cover;
+    background-size: 100px;
+    text-align: center;
+    background-position-x: 950px; 
+}
+.linha1 {
+    color: #000066;
+    width: 50px;
+    font-size: 16px;
+    font-family: ArialBlack;
+   
+}
+
+.linha1:hover{
+    background: #009DFF;
+}
+.linha1_2{
+    color: #000066;
+    width: 50px;
+    font-size: 16px;
+    font-family: ArialBlack;
+    size: 20px;
+}
+.botoes{
+    width: 45px;
+    text-align: center;
+}
+
+.botao2{
+    background: #0000A4;
+    border-bottom: 0px;
+    border-bottom-right-radius:  20px;
+    color: #fff;
+    text-align: center;
+}
+
+.botao1 {
+     background: #0000A4;
+    border-bottom: 0px;
+    border-bottom-left-radius:  20px;
+    color: #fff;
+    text-align: center;
+}
+
+.botao2:hover{
+    background: #009DFF;
+}
+.botao1:hover{
+    background: #009DFF;
+}
+.botao3:hover{
+    background: #009DFF;
+}
+
+.botao3{
+    background: #0000A4;
+    border-bottom: 0px;
+    border-bottom-right-radius:  20px;
+    border-bottom-left-radius:  20px;
+    margin-bottom: -95px;
+    color: #fff;
+    text-align: center;
+}
+.central{
+    width: 260px;
+	margin:0 auto;			
+	text-align:left;
+}
+
+.FotoF{
+        
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+    Created on : 23/06/2015, 08:01:19
+    Author     : Mayara R.
+-->
+<html>
+    <head>
+        <title>PI</title>
+        <meta charset="UTF-8">
+        <script src="js/teste1.js" type="text/javascript"></script>
+        <link href="style/contatoestilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <form name="meu form">
+            <h1>Contact Us</h1>
+            <p class="name">
+                <input type="text" id="nomeid"
+                       placeholder="Squirt" required="required"
+                       name="nome"/>
+                <label for="nome">Nome</label>
+            </p>
+            
+            <p class="phone">
+                <input type="text" id="foneid"
+                       placeholder="(xx)- xxxxx - xxxx" name="fone" pattern="^\d{2}-\d{5}-\d{4}$"/>
+                <label for="fone">Fone</label>
+                
+            </p>
+            
+            <p class="address">
+                <input type="email" id="emailid"
+                       placeholder="your@mail.com" name="email"/>
+                <label for="email">Email</label>
+            </p>
+            
+            <p><textarea placeholder="Deixe sua opinião"></textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" onclick="Enviar();" value="Enviar"/></p>
+            <br>
+        </form>
+    </body>
+</html>

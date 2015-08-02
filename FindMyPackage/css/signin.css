@@ -1,0 +1,70 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+   
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+q {
+    display:block;
+}
+#search {margin: 0 auto;}
+
+#search input[type="text"] {
+    background: url(../images/search-dark.png) no-repeat 10px 6px #e9e9e9;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+    
+.logo {
+    position: relative;
+    left: 500px;
+    }

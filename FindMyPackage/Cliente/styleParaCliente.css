@@ -1,0 +1,74 @@
+.tablemapa2{
+    position: absolute;
+    border: 2px; 
+    left: 100%;
+    top: 5px;   
+}
+#tableinfo{
+    position: absolute;
+    left: 0;
+    top: 55px;
+    box-shadow: 0;
+}
+
+#sauda{
+    position: absolute;
+    top: 255px;
+    left:32.3% ;
+}
+
+#tf_center{
+    position: absolute;
+    top: 355px;
+    left: 35.3%;
+}
+
+#bt_center{
+    position: absolute;
+    top: 355px;
+    left: 52.3%;
+}
+
+.google-maps { position: absolute; padding-bottom: 75%; // This is the aspect ratio height: 0; overflow: hidden;margin-top: 20px; 
+} 
+.google-maps iframe { position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
+
+.botaoConfirm {
+    position: absolute;
+    top: 0px; 
+    left: 225px; 
+    border: 0px;
+    width: 170px; 
+    height: 30px; 
+    background: #0D7D63; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+}
+.botaoConfirm:hover{
+    box-shadow:inset 0 20px 5px rgba(7,64,50,.575),2px 5px 8px rgba(9,173,13,.6);
+}
+
+.botaoUltra {
+    width: 190px; 
+    height: 30px; 
+    border: 0px;
+    background: #B43D3B; 
+    border-bottom: 1px ;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+}
+.botaoUltra:hover {
+    box-shadow:inset 0 20px 5px rgba(122,7,0,.575),2px 7px 8px rgba(199,100,95,.6);
+}
